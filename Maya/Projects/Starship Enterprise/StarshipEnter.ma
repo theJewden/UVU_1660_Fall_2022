@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: StarshipEnter.ma
-//Last modified: Sat, Oct 22, 2022 03:13:47 PM
+//Last modified: Sat, Oct 22, 2022 03:26:28 PM
 //Codeset: 1252
 requires maya "2023";
 requires "mtoa" "5.1.2";
@@ -12,12 +12,12 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202205052215-234554116d";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22000)";
-fileInfo "UUID" "BC1E488B-4AFD-14EB-D10E-99B2E27D30AC";
+fileInfo "UUID" "234A94DE-4777-2979-9ACC-DD989A4E5820";
 createNode transform -s -n "persp";
 	rename -uid "A91B7CBF-43BC-1BBC-FF25-1BB6B74953EB";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 17.770857083887904 9.6545945161758961 -19.372810242945107 ;
-	setAttr ".r" -type "double3" -21.464389685192508 -2009.7999999982069 0 ;
+	setAttr ".t" -type "double3" 28.336893063217573 1.5436089237970023 -12.209625088979816 ;
+	setAttr ".r" -type "double3" -5.2643896851919889 -2035.3999999982041 0 ;
 	setAttr ".rp" -type "double3" 1.9558053211341877e-15 5.5815541055376405e-15 0 ;
 	setAttr ".rpt" -type "double3" -1.7426846495082648e-15 4.7269575578302644e-16 -4.5757537390548693e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
